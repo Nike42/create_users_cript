@@ -18,3 +18,26 @@ Password Generation: Generates random passwords for new users and stores them se
 ########
 
 Logging: Logs all actions and errors for easy monitoring and troubleshooting.
+########
+
+Using the Script
+To use the script, follow these steps
+#######
+
+
+Save the Script: Save the provided script as create_users.sh.
+
+
+Make the Script Executable: chmod +x create_users.sh
+
+
+Prepare Your Input File: Create a text file with usernames and groups in the required format.
+
+
+Example:
+_light; sudo,dev,www-data
+idimma; sudo
+mayowa; dev,www-data_
+
+
+Run the Script: sudo ./create_users.sh input_file.txt
